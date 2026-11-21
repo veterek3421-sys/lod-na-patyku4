@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "polesmierci",
+  "version": "${version}",
+  "name": "Lód na patyku",
+  "description": "Lód na patyku i Pole Śmierci: własne tekstury, nazwy i opisy przedmiotów.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pl.polesmierci.PoleSmierci"
+    ],
+    "client": [
+      "pl.polesmierci.PoleSmierciClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
